@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-"""Script to take two floats and add them"""
+"""Script define and annotate varables"""
 
 
-def add(a: float, b: float) -> float:
-    """sum of two floats"""
-    return a + b
+a: int = 1
+pi: float = 3.14
+i_understand_annotations: bool = True
+school: str = "Holberton"
